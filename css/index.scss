@@ -1,0 +1,312 @@
+body{
+  /*定义滚动条样式（高宽及背景）*/
+  ::-webkit-scrollbar {
+    width: 8px;   /* 滚动条宽度， width：对应竖滚动条的宽度  height：对应横滚动条的高度*/
+    background:rgba(255,226,148,.5);
+  }
+  /*定义滚动条轨道（凹槽）样式*/
+  ::-webkit-scrollbar-track {
+    //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);    /* 较少使用 */
+    border-radius: 4px;
+  }
+  /*定义滑块 样式*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    height: 100px;    /* 滚动条滑块长度 */
+    background-color: #FFE294;
+  }
+
+  background-image: url("../img/indexBg.png");
+  background-size: cover;
+  header{
+    text-align: center;
+    img{
+      height: 280px;
+      width: 100%;
+    }
+  }
+  #main{
+    width: 100%;
+    //height: 735px;
+    //text-align: center;
+    padding-bottom: 63px;
+    .content{
+      width: 90%;
+      height: 735px;
+      margin: 0 auto;
+      display: flex;
+      .left1{
+        width: 18%;
+        height: 504px;
+        margin-right: 20px;
+        //background: white;
+        .left1-item{
+          //font-size: 0; //去除默认间距
+          img{
+            width: 100%;
+            height:168px;
+            display: block;//去除默认间距 两者都可以
+          }
+          .goBack{
+            width: 70%;
+            height:84px;
+            margin-top: 158px;
+          }
+        }
+      }
+
+      /*index.html  右边css样式*/
+      .left2{
+        width: 82%;
+        height: 733px;
+        .left2-title{
+          display: flex;
+          margin-bottom: 17px;
+          img{
+            cursor: pointer;
+            width: 50%;
+            height: 72px;
+            opacity: .4;
+          }
+
+          .img-bg{
+            opacity: 1 !important;
+          }
+
+        }
+        .left2-content{
+          text-align: center;
+          height: 645px;
+            width: 100%;
+          background: #EA0000;
+          #indexC2{
+            display: none;
+          }
+          iframe{
+            html{
+              body{
+                table{
+                  a{
+                    color: yellow;
+                  }
+                  a:link{
+                    color: green;
+                  }
+                }
+              }
+            }
+              background: black;
+          }
+        }
+      }
+
+      /*left02.html  右边css样式*/
+      .left02_right{
+        width: 82%;
+        height: 791px;
+        background-image: url("../img/allBg.png");
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left02_right_index{
+          margin-top: -50px;
+          width: 80%;
+          height: 650px;
+          display: flex;
+          .eft02_right1{
+            width: 50%;
+            height: 100%;
+            background-image: url("../img/map.png");
+            background-size: 100% 100%;
+            margin-right: 43px;
+            #r1{
+
+            }
+            div:nth-of-type(2){
+              margin-left: 50%;
+            }
+            div{
+              cursor: pointer;
+              //opacity: .4;
+              filter: grayscale(70%);
+              opacity: .8;
+              img{
+                width: 235px;
+                height: 155px;
+              }
+            }
+            .left02_active{
+              filter: grayscale(0);
+              opacity: 1 !important;
+            }
+          }
+          .eft02_right2,.eft02_right3{
+            width: 50%;
+            height: 100%;
+            background-image: url("../img/right.png");
+            background-size: 100% 100%;
+            .img{
+              text-align: center;
+              margin: 48px 0;
+              img{
+                width: 70%;
+                height: 30px;
+              }
+            }
+            .text{
+              //height: 370px;
+              //overflow-y: scroll;
+              letter-spacing: 1px;
+              width: 80%;
+              text-indent: 50px;
+              font-size: 22px;
+              color: #443210;
+              line-height: 36px;
+              margin: 0 auto;
+              text-align: left;
+            }
+          }
+        }
+      }
+
+      /*left03.html  右边css样式*/
+      .left03_right{
+        width: 82%;
+        height: 810px;
+        background-image: url("../img/allBg.png");
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left03_right_index{
+          margin-top: -50px;
+          overflow-y: scroll;
+          width: 80%;
+          height: 670px;
+          display: flex;
+          flex-flow: row wrap;
+          .eft03_item{
+            //display: flex;
+            cursor: pointer;
+            height: 308px;
+            width: 19%;
+            margin: 0 20px 35px 0;
+            img{
+              border: 12px solid #FFFFFF;
+              width: 88%;
+              height: 250px;
+              border-top-left-radius: 12px;
+            }
+            p{
+              text-align: center;
+              line-height: 50px;
+              width: 106%;
+              margin-top: -2%;
+              margin-left: -4%;
+              height: 58px;
+              font-size: 30px;
+              background-image: url("../img/left03_imgK.png");
+              background-size: 100% 100%;
+            }
+          }
+
+          a:link,a:visited{
+            color: black;
+            text-decoration: none;
+          }
+
+        }
+      }
+
+      /*left03_info.html  右边css样式*/
+      .left03_info_right{
+        width: 82%;
+        height: 791px;
+        background-image: url("../img/allBg.png");
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left03_info_right_index{
+          margin-top: -50px;
+          width: 96%;
+          height: 600px;
+          .info1{
+            margin-left: -4px;
+            width: 20%;
+            height: 80px;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .info2{
+            width: 85%;
+            height: 560px;
+            display: flex;
+            margin:0  auto;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: -35px;
+            a{
+              width: 5%;
+              height: 80px;
+              img{
+                cursor: pointer;
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+            .info_center{
+              width: 80%;
+              height: 560px;
+              display: flex;
+              align-items: center;
+              .info_item{
+                height: 308px;
+                width: 25%;
+                margin: 0 40px 0 0;
+                img{
+                  border: 12px solid #FFFFFF;
+                  width: 88%;
+                  height: 250px;
+                  border-top-left-radius: 12px;
+                }
+                p{
+                  text-align: center;
+                  line-height: 50px;
+                  width: 106%;
+                  margin-top: -2%;
+                  margin-left: -4%;
+                  height: 58px;
+                  font-size: 28px;
+                  background-image: url("../img/left03_imgK.png");
+                  background-size: 100% 100%;
+                }
+              }
+              .info_text{
+                padding-right: 30px;
+                text-indent: 50px;
+                width: 81%;
+                height: 100%;
+                overflow-y: scroll;
+                color: #FFFFFF !important;
+                font-size: 28px;
+                p{
+                  color: #FFFFFF !important;
+                  span{
+                    color: #FFFFFF !important;
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

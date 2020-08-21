@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ffe231b-9d20-4ae3-98aa-cd28ba5c9217" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ecO4HiI9jMdtdoTDABrvC1YYwr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/成氏商城/吃书的狐狸/eating-for-mp" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\govement" />
+      <recent name="E:\govement\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.left02.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/govement/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="left02.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/govement/left02.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.left02.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ffe231b-9d20-4ae3-98aa-cd28ba5c9217" name="Default Changelist" comment="" />
+      <created>1594617221805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594617221805</updated>
+      <workItem from="1594617224174" duration="22123000" />
+      <workItem from="1594691893901" duration="22502000" />
+      <workItem from="1594781364084" duration="9554000" />
+      <workItem from="1594800801439" duration="148000" />
+      <workItem from="1594868455553" duration="3019000" />
+      <workItem from="1594884755781" duration="1228000" />
+      <workItem from="1595383737794" duration="684000" />
+      <workItem from="1595385946341" duration="1581000" />
+      <workItem from="1597829625636" duration="1349000" />
+      <workItem from="1597835175691" duration="1716000" />
+      <workItem from="1597917600760" duration="610000" />
+      <workItem from="1597975298305" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="566" y="300" key="EditFileWatcherDialog" timestamp="1595386968465">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="566" y="300" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595386968465" />
+    <state x="732" y="175" key="FileChooserDialogImpl" timestamp="1597975383497">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="732" y="175" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1597975383497" />
+    <state x="461" y="156" key="SettingsEditor" timestamp="1595386970863">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595386970863" />
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1594695566064">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1594695566064" />
+  </component>
+</project>
