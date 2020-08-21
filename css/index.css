@@ -90,30 +90,46 @@ body {
             background-image: url("../img/map.png");
             background-size: 100% 100%;
             margin-right: 43px; }
-            body #main .content .left02_right .left02_right_index .eft02_right1 div:nth-of-type(2) {
-              margin-left: 50%; }
             body #main .content .left02_right .left02_right_index .eft02_right1 div {
-              cursor: pointer;
-              filter: grayscale(70%);
-              opacity: .8; }
+              cursor: pointer; }
               body #main .content .left02_right .left02_right_index .eft02_right1 div img {
                 width: 235px;
-                height: 155px; }
-            body #main .content .left02_right .left02_right_index .eft02_right1 .left02_active {
-              filter: grayscale(0);
-              opacity: 1 !important; }
-          body #main .content .left02_right .left02_right_index .eft02_right2, body #main .content .left02_right .left02_right_index .eft02_right3 {
+                height: 155px;
+                filter: grayscale(70%);
+                opacity: .8; }
+            body #main .content .left02_right .left02_right_index .eft02_right1 #r2 {
+              margin-left: 128px;
+              margin-top: -46px; }
+            body #main .content .left02_right .left02_right_index .eft02_right1 .all {
+              white-space: nowrap; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .left02_active {
+                filter: grayscale(0);
+                opacity: 1 !important; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .shahu {
+                margin-left: 174px;
+                width: 188px;
+                height: 120px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .tangkeng {
+                width: 197px;
+                height: 133px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .bilin {
+                width: 193px;
+                height: 128px;
+                margin-left: 120px; }
+          body #main .content .left02_right .left02_right_index .eft02_right2, body #main .content .left02_right .left02_right_index .eft02_right3, body #main .content .left02_right .left02_right_index .eft02_right_shahu, body #main .content .left02_right .left02_right_index .eft02_right_bilin, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng {
             width: 50%;
             height: 100%;
             background-image: url("../img/right.png");
             background-size: 100% 100%; }
-            body #main .content .left02_right .left02_right_index .eft02_right2 .img, body #main .content .left02_right .left02_right_index .eft02_right3 .img {
+            body #main .content .left02_right .left02_right_index .eft02_right2 .img, body #main .content .left02_right .left02_right_index .eft02_right3 .img, body #main .content .left02_right .left02_right_index .eft02_right_shahu .img, body #main .content .left02_right .left02_right_index .eft02_right_bilin .img, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .img {
               text-align: center;
               margin: 48px 0; }
-              body #main .content .left02_right .left02_right_index .eft02_right2 .img img, body #main .content .left02_right .left02_right_index .eft02_right3 .img img {
+              body #main .content .left02_right .left02_right_index .eft02_right2 .img img, body #main .content .left02_right .left02_right_index .eft02_right3 .img img, body #main .content .left02_right .left02_right_index .eft02_right_shahu .img img, body #main .content .left02_right .left02_right_index .eft02_right_bilin .img img, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .img img {
                 width: 70%;
                 height: 30px; }
-            body #main .content .left02_right .left02_right_index .eft02_right2 .text, body #main .content .left02_right .left02_right_index .eft02_right3 .text {
+            body #main .content .left02_right .left02_right_index .eft02_right2 .text, body #main .content .left02_right .left02_right_index .eft02_right3 .text, body #main .content .left02_right .left02_right_index .eft02_right_shahu .text, body #main .content .left02_right .left02_right_index .eft02_right_bilin .text, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .text {
+              height: 460px;
+              overflow-y: scroll;
               letter-spacing: 1px;
               width: 80%;
               text-indent: 50px;

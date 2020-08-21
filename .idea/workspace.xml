@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ffe231b-9d20-4ae3-98aa-cd28ba5c9217" name="Default Changelist" comment="" />
+    <list default="true" id="2ffe231b-9d20-4ae3-98aa-cd28ba5c9217" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/地标2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/汤坑社区党委@2x(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/汤坑社区党委@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/沙湖社区党委@2x(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/沙湖社区党委@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/碧岭社区党委@2x(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/碧岭社区党委@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/left02.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/left02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/left02.html" beforeDir="false" afterPath="$PROJECT_DIR$/left02.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ecO4HiI9jMdtdoTDABrvC1YYwr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,8 +43,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/成氏商城/吃书的狐狸/eating-for-mp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -72,6 +91,7 @@
       <workItem from="1597835175691" duration="1716000" />
       <workItem from="1597917600760" duration="610000" />
       <workItem from="1597975298305" duration="96000" />
+      <workItem from="1598007304509" duration="6345000" />
     </task>
     <servers />
   </component>
