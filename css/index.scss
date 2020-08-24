@@ -1,7 +1,7 @@
 body{
   /*定义滚动条样式（高宽及背景）*/
   ::-webkit-scrollbar {
-    width: 8px;   /* 滚动条宽度， width：对应竖滚动条的宽度  height：对应横滚动条的高度*/
+    width: 4px;   /* 滚动条宽度， width：对应竖滚动条的宽度  height：对应横滚动条的高度*/
     background:rgba(255,226,148,.5);
   }
   /*定义滚动条轨道（凹槽）样式*/
@@ -130,7 +130,8 @@ body{
               }
             }
             #r2{
-              margin-left: 128px;
+              //margin-left: 128px;
+              margin-left: 20%;
               margin-top: -46px;
             }
             .all{
@@ -140,7 +141,8 @@ body{
                 opacity: 1 !important;
               }
               .shahu{
-                margin-left: 174px;
+                //margin-left: 174px;
+                margin-left: 31%;
                 width: 188px;
                 height: 120px;
               }
@@ -151,7 +153,8 @@ body{
               .bilin{
                 width: 193px;
                 height: 128px;
-                margin-left: 120px;
+                //margin-left: 120px;
+                margin-left: 20%;
               }
               .dier{
               }
@@ -172,6 +175,7 @@ body{
               }
             }
             .text{
+              padding:0 15px;
               height:460px;
               overflow-y: scroll;
               letter-spacing: 1px;
@@ -182,6 +186,9 @@ body{
               line-height: 36px;
               margin: 0 auto;
               text-align: left;
+              span:nth-child(1){
+                margin-left: -50px;
+              }
             }
           }
         }
@@ -189,7 +196,8 @@ body{
 
       /*left03.html  右边css样式*/
       .left03_right{
-        width: 82%;
+        //width: 82%;
+        width: 1400px;
         height: 810px;
         background-image: url("../img/allBg.png");
         background-size: 100% 100%;
@@ -200,15 +208,16 @@ body{
         .left03_right_index{
           margin-top: -50px;
           overflow-y: scroll;
-          width: 80%;
+          //width: 80%;
+          width: 92%;
           height: 670px;
           display: flex;
           flex-flow: row wrap;
           .eft03_item{
-            //display: flex;
             cursor: pointer;
             height: 308px;
-            width: 19%;
+            //width: 19%;
+            width: 188px;
             margin: 0 20px 35px 0;
             img{
               border: 12px solid #FFFFFF;
@@ -219,7 +228,7 @@ body{
             p{
               text-align: center;
               line-height: 50px;
-              width: 106%;
+              width: 107%;
               margin-top: -2%;
               margin-left: -4%;
               height: 58px;
