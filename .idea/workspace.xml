@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/left02.html" beforeDir="false" afterPath="$PROJECT_DIR$/left02.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1598266212671" duration="4553000" />
       <workItem from="1598322315268" duration="45000" />
       <workItem from="1598322619996" duration="18000" />
-      <workItem from="1598347727057" duration="1963000" />
+      <workItem from="1598347727057" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="修改地图页面标签图切换逻辑">
       <created>1598013971791</created>
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598271276726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改地图页1">
+      <created>1598350311069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598350311069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,13 +118,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改地图页面标签图切换逻辑" />
     <MESSAGE value="修改地图页" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改地图页" />
+    <MESSAGE value="修改地图页1" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改地图页1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1598271275381">
+    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1598350310061">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598271275381" />
+    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598350310061" />
     <state x="566" y="300" key="EditFileWatcherDialog" timestamp="1595386968465">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -131,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595386970863" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1598271285124">
+    <state x="368" y="241" key="Vcs.Push.Dialog.v2" timestamp="1598350322684">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598271285124" />
+    <state x="368" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598350322684" />
     <state x="636" y="256" width="647" height="538" key="find.popup" timestamp="1598268358215">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
