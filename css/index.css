@@ -94,7 +94,6 @@ body {
               cursor: pointer; }
               body #main .content .left02_right .left02_right_index .eft02_right1 div img {
                 width: 235px;
-                height: 155px;
                 filter: grayscale(70%);
                 opacity: .8; }
             body #main .content .left02_right .left02_right_index .eft02_right1 #r2 {
@@ -141,6 +140,8 @@ body {
               text-align: left; }
               body #main .content .left02_right .left02_right_index .eft02_right2 .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right3 .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right_shahu .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right_bilin .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .text span:nth-child(1) {
                 margin-left: -50px; }
+              body #main .content .left02_right .left02_right_index .eft02_right2 .text .bold, body #main .content .left02_right .left02_right_index .eft02_right3 .text .bold, body #main .content .left02_right .left02_right_index .eft02_right_shahu .text .bold, body #main .content .left02_right .left02_right_index .eft02_right_bilin .text .bold, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .text .bold {
+                font-weight: bold; }
       body #main .content .left03_right {
         width: 1400px;
         height: 810px;

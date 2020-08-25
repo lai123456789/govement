@@ -124,7 +124,7 @@ body{
               cursor: pointer;
               img{
                 width: 235px;
-                height: 155px;
+                //height: 155px;
                 filter: grayscale(70%);
                 opacity: .8;
               }
@@ -188,6 +188,9 @@ body{
               text-align: left;
               span:nth-child(1){
                 margin-left: -50px;
+              }
+              .bold{
+                font-weight: bold;
               }
             }
           }

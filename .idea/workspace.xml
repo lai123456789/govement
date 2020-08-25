@@ -6,12 +6,6 @@
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/addTextOne.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/addTextOne.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/addTextTwo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/addTextTwo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bilin.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bilin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bilin_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bilin_title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/left02_text.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/left02_text.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/left02_textOne.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/left02_textOne.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/left02.html" beforeDir="false" afterPath="$PROJECT_DIR$/left02.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/成氏商城公司小程序/CSSC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -90,7 +84,10 @@
       <workItem from="1597975298305" duration="96000" />
       <workItem from="1598007304509" duration="6511000" />
       <workItem from="1598237167560" duration="2609000" />
-      <workItem from="1598266212671" duration="4493000" />
+      <workItem from="1598266212671" duration="4553000" />
+      <workItem from="1598322315268" duration="45000" />
+      <workItem from="1598322619996" duration="18000" />
+      <workItem from="1598347727057" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="修改地图页面标签图切换逻辑">
       <created>1598013971791</created>
@@ -99,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598013971791</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改地图页">
+      <created>1598271276726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598271276726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,29 +111,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改地图页面标签图切换逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改地图页面标签图切换逻辑" />
+    <MESSAGE value="修改地图页" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改地图页" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1598013970653">
+    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1598271275381">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598013970653" />
+    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598271275381" />
     <state x="566" y="300" key="EditFileWatcherDialog" timestamp="1595386968465">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="566" y="300" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595386968465" />
-    <state x="475" y="162" key="FileChooserDialogImpl" timestamp="1598248438876">
+    <state x="678" y="165" key="FileChooserDialogImpl" timestamp="1598322635090">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="475" y="162" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598248438876" />
+    <state x="678" y="165" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598322635090" />
     <state x="461" y="156" key="SettingsEditor" timestamp="1595386970863">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595386970863" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1598013979078">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1598271285124">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598013979078" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598271285124" />
     <state x="636" y="256" width="647" height="538" key="find.popup" timestamp="1598268358215">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
