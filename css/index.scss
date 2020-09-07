@@ -102,7 +102,8 @@ body{
 
       /*left02.html  右边css样式*/
       .left02_right{
-        width: 82%;
+        //width: 82%;
+        width: 105%;
         height: 791px;
         background-image: url("../img/allBg.png");
         background-size: 100% 100%;
@@ -132,68 +133,183 @@ body{
             }
             #r2{
               //margin-left: 128px;
-              margin-left: 20%;
+              margin-left: -17%;
               margin-top: -46px;
+              position: relative;
             }
             .all{
               white-space: nowrap;
               .left02_active{
                 filter: grayscale(0);
                 opacity: 1 !important;
+                z-index: 15000;
+                position: relative;
+              }
+              .five{
+                width: 244px;
+                height: 152px;
+                position: absolute;
+                margin-top: 38px;
+                margin-left: -4px;
               }
               .shahu{
-                //margin-left: 174px;
-                margin-left: 31%;
+                margin-left: 180px;
                 width: 188px;
                 height: 120px;
+                margin-top: -39px;
+                position: absolute;
+              }
+              .seven{
+                width: 180px;
+                height: 120px;
+                right: -70px;
+                margin-top: -33px;
+                position: absolute;
+              }
+              .ten{
+                margin-left: -42px;
+                width: 180px;
+                height: 120px;
+                position: absolute;
+                margin-top: -90px;
+              }
+              .four{
+                width: 300px;
+                height: 124px;
+              }
+              .eight{
+                width: 198px;
+                height: 83px;
+                right: -49px;
+                margin-top: 70px;
+                position: absolute;
+              }
+              .night{
+                width: 218px;
+                height: 83px;
+                right: -49px;
+                margin-top: 140px;
+                position: absolute;
+              }
+              .eleven{
+                width: 197px;
+                height: 126px;
+                bottom: 66px;
+                position: absolute;
+                margin-left: -120px;
+              }
+              .twelve{
+                width: 234px;
+                height: 192px;
+                position: absolute;
+                margin-left: -7px;
+                bottom: -63px;
               }
               .tangkeng{
                 width: 197px;
                 height: 133px;
+                position: absolute;
+                margin-left: -70px;
               }
               .bilin{
                 width: 193px;
                 height: 128px;
-                //margin-left: 120px;
-                margin-left: 20%;
+                position: absolute;
+                margin-left: 193px;
+                margin-top: 70px;
+              }
+              .six{
+                width: 226px;
+                height: 152px;
+                margin-left: -26px;
+              }
+              .diyi{
+                margin-left: -50px;
               }
               .dier{
+                margin-top: 129px;
+                margin-left: 68px;
               }
             }
 
           }
-          .eft02_right2,.eft02_right3,.eft02_right_shahu,.eft02_right_bilin,.eft02_right_tangkeng{
+          .showContentRight{
             width: 50%;
             height: 100%;
             background-image: url("../img/right.png");
             background-size: 100% 100%;
-            .img{
-              text-align: center;
-              margin: 48px 0;
-              img{
-                width: 70%;
-                height: 30px;
+
+            .eft02_right2,.eft02_right3,.eft02_right_shahu,.eft02_right_bilin,.eft02_right_tangkeng,.tianlin
+            ,.changhong,.qianlang,.longjing,.xincheng,.keding,.yefeng,.jiayicheng,.xiandai,.five{
+              &.active_show{
+                display: none;
               }
+              .all-content{
+                .img{
+                  text-align: center;
+                  margin: 48px 0;
+                  img{
+                    width: 70%;
+                    height: 30px;
+                  }
+                }
+                .index{
+                  height:439px;
+                  overflow-y: scroll;
+                  margin-right: 27px;
+                  margin-left: 20px;
+                  ::-webkit-scrollbar{
+                    display: none !important;
+                  }
+                  .read-more{
+                    text-align: right;
+                    margin-right: 46px;
+                    font-size: 18px;
+                    line-height: 35px;
+                  }
+                  .imgJPG{
+                    margin: 30px;
+                    width:345px;
+                    height: 178px;
+                    img{
+                      width:100%;
+                      height: 100%;
+                    }
+
+                  }
+                  .text{
+                    //overflow:hidden;  //超出文本隐藏
+                    //text-overflow:ellipsis;  ///超出部分省略号显示
+                    //display:-webkit-box;  //弹性盒模型
+                    //-webkit-box-orient:vertical;  //上下垂直
+                    //-webkit-line-clamp:6;  //自定义行数
+                    padding:0 15px;
+                    height:460px;
+                    letter-spacing: 1px;
+                    width: 80%;
+                    text-indent: 50px;
+                    font-size: 22px;
+                    color: #443210;
+                    line-height: 36px;
+                    margin: 0 auto;
+                    text-align: left;
+                    overflow-y: scroll;
+                    ::-webkit-scrollbar{
+                      display: none !important;
+                    }
+                    span:nth-child(1){
+                      margin-left: -50px;
+                    }
+                    .bold{
+                      font-weight: bold;
+                    }
+                  }
+                }
+              }
+
+
             }
-            .text{
-              padding:0 15px;
-              height:460px;
-              overflow-y: scroll;
-              letter-spacing: 1px;
-              width: 80%;
-              text-indent: 50px;
-              font-size: 22px;
-              color: #443210;
-              line-height: 36px;
-              margin: 0 auto;
-              text-align: left;
-              span:nth-child(1){
-                margin-left: -50px;
-              }
-              .bold{
-                font-weight: bold;
-              }
-            }
+
           }
         }
       }

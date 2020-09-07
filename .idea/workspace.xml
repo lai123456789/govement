@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ffe231b-9d20-4ae3-98aa-cd28ba5c9217" name="Default Changelist" comment="">
+    <list default="true" id="2ffe231b-9d20-4ae3-98aa-cd28ba5c9217" name="Default Changelist" comment="修改地图页1">
+      <change afterPath="$PROJECT_DIR$/img/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/changhong1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dier.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/diyi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/keding1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/longjing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qianlang1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/shahu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tangkeng1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tianlin1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xincheng1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/left02.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/left02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/left02.html" beforeDir="false" afterPath="$PROJECT_DIR$/left02.html" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +66,18 @@
       <recent name="E:\govement" />
       <recent name="E:\govement\js" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.left02.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/govement/index.html" useBuiltInWebServerPort="true">
@@ -87,6 +121,10 @@
       <workItem from="1598322315268" duration="45000" />
       <workItem from="1598322619996" duration="18000" />
       <workItem from="1598347727057" duration="2383000" />
+      <workItem from="1599304705006" duration="6610000" />
+      <workItem from="1599362630553" duration="24154000" />
+      <workItem from="1599445739176" duration="24000" />
+      <workItem from="1599490366887" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="修改地图页面标签图切换逻辑">
       <created>1598013971791</created>
@@ -114,6 +152,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改地图页面标签图切换逻辑" />

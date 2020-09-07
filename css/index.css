@@ -72,7 +72,7 @@ body {
             body #main .content .left2 .left2-content iframe html body table a:link {
               color: green; }
       body #main .content .left02_right {
-        width: 82%;
+        width: 105%;
         height: 791px;
         background-image: url("../img/allBg.png");
         background-size: 100% 100%;
@@ -97,51 +97,149 @@ body {
                 filter: grayscale(70%);
                 opacity: .8; }
             body #main .content .left02_right .left02_right_index .eft02_right1 #r2 {
-              margin-left: 20%;
-              margin-top: -46px; }
+              margin-left: -17%;
+              margin-top: -46px;
+              position: relative; }
             body #main .content .left02_right .left02_right_index .eft02_right1 .all {
               white-space: nowrap; }
               body #main .content .left02_right .left02_right_index .eft02_right1 .all .left02_active {
                 filter: grayscale(0);
-                opacity: 1 !important; }
+                opacity: 1 !important;
+                z-index: 15000;
+                position: relative; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .five {
+                width: 244px;
+                height: 152px;
+                position: absolute;
+                margin-top: 38px;
+                margin-left: -4px; }
               body #main .content .left02_right .left02_right_index .eft02_right1 .all .shahu {
-                margin-left: 31%;
+                margin-left: 180px;
                 width: 188px;
-                height: 120px; }
+                height: 120px;
+                margin-top: -39px;
+                position: absolute; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .seven {
+                width: 180px;
+                height: 120px;
+                right: -70px;
+                margin-top: -33px;
+                position: absolute; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .ten {
+                margin-left: -42px;
+                width: 180px;
+                height: 120px;
+                position: absolute;
+                margin-top: -90px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .four {
+                width: 300px;
+                height: 124px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .eight {
+                width: 198px;
+                height: 83px;
+                right: -49px;
+                margin-top: 70px;
+                position: absolute; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .night {
+                width: 218px;
+                height: 83px;
+                right: -49px;
+                margin-top: 140px;
+                position: absolute; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .eleven {
+                width: 197px;
+                height: 126px;
+                bottom: 66px;
+                position: absolute;
+                margin-left: -120px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .twelve {
+                width: 234px;
+                height: 192px;
+                position: absolute;
+                margin-left: -7px;
+                bottom: -63px; }
               body #main .content .left02_right .left02_right_index .eft02_right1 .all .tangkeng {
                 width: 197px;
-                height: 133px; }
+                height: 133px;
+                position: absolute;
+                margin-left: -70px; }
               body #main .content .left02_right .left02_right_index .eft02_right1 .all .bilin {
                 width: 193px;
                 height: 128px;
-                margin-left: 20%; }
-          body #main .content .left02_right .left02_right_index .eft02_right2, body #main .content .left02_right .left02_right_index .eft02_right3, body #main .content .left02_right .left02_right_index .eft02_right_shahu, body #main .content .left02_right .left02_right_index .eft02_right_bilin, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng {
+                position: absolute;
+                margin-left: 193px;
+                margin-top: 70px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .six {
+                width: 226px;
+                height: 152px;
+                margin-left: -26px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .diyi {
+                margin-left: -50px; }
+              body #main .content .left02_right .left02_right_index .eft02_right1 .all .dier {
+                margin-top: 129px;
+                margin-left: 68px; }
+          body #main .content .left02_right .left02_right_index .showContentRight {
             width: 50%;
             height: 100%;
             background-image: url("../img/right.png");
             background-size: 100% 100%; }
-            body #main .content .left02_right .left02_right_index .eft02_right2 .img, body #main .content .left02_right .left02_right_index .eft02_right3 .img, body #main .content .left02_right .left02_right_index .eft02_right_shahu .img, body #main .content .left02_right .left02_right_index .eft02_right_bilin .img, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .img {
+            body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2.active_show, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3.active_show, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu.active_show, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin.active_show, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng.active_show, body #main .content .left02_right .left02_right_index .showContentRight .tianlin.active_show
+            , body #main .content .left02_right .left02_right_index .showContentRight .changhong.active_show, body #main .content .left02_right .left02_right_index .showContentRight .qianlang.active_show, body #main .content .left02_right .left02_right_index .showContentRight .longjing.active_show, body #main .content .left02_right .left02_right_index .showContentRight .xincheng.active_show, body #main .content .left02_right .left02_right_index .showContentRight .keding.active_show, body #main .content .left02_right .left02_right_index .showContentRight .yefeng.active_show, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng.active_show, body #main .content .left02_right .left02_right_index .showContentRight .xiandai.active_show, body #main .content .left02_right .left02_right_index .showContentRight .five.active_show {
+              display: none; }
+            body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+            .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .img, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .img {
               text-align: center;
               margin: 48px 0; }
-              body #main .content .left02_right .left02_right_index .eft02_right2 .img img, body #main .content .left02_right .left02_right_index .eft02_right3 .img img, body #main .content .left02_right .left02_right_index .eft02_right_shahu .img img, body #main .content .left02_right .left02_right_index .eft02_right_bilin .img img, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .img img {
+              body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+              .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .img img, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .img img {
                 width: 70%;
                 height: 30px; }
-            body #main .content .left02_right .left02_right_index .eft02_right2 .text, body #main .content .left02_right .left02_right_index .eft02_right3 .text, body #main .content .left02_right .left02_right_index .eft02_right_shahu .text, body #main .content .left02_right .left02_right_index .eft02_right_bilin .text, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .text {
-              padding: 0 15px;
-              height: 460px;
+            body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+            .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index {
+              height: 439px;
               overflow-y: scroll;
-              letter-spacing: 1px;
-              width: 80%;
-              text-indent: 50px;
-              font-size: 22px;
-              color: #443210;
-              line-height: 36px;
-              margin: 0 auto;
-              text-align: left; }
-              body #main .content .left02_right .left02_right_index .eft02_right2 .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right3 .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right_shahu .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right_bilin .text span:nth-child(1), body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .text span:nth-child(1) {
-                margin-left: -50px; }
-              body #main .content .left02_right .left02_right_index .eft02_right2 .text .bold, body #main .content .left02_right .left02_right_index .eft02_right3 .text .bold, body #main .content .left02_right .left02_right_index .eft02_right_shahu .text .bold, body #main .content .left02_right .left02_right_index .eft02_right_bilin .text .bold, body #main .content .left02_right .left02_right_index .eft02_right_tangkeng .text .bold {
-                font-weight: bold; }
+              margin-right: 27px;
+              margin-left: 20px; }
+              body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+              .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index ::-webkit-scrollbar {
+                display: none !important; }
+              body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+              .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index .read-more, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index .read-more {
+                text-align: right;
+                margin-right: 46px;
+                font-size: 18px;
+                line-height: 35px; }
+              body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+              .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index .imgJPG, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index .imgJPG {
+                margin: 30px;
+                width: 345px;
+                height: 178px; }
+                body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+                .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index .imgJPG img, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index .imgJPG img {
+                  width: 100%;
+                  height: 100%; }
+              body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+              .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index .text, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index .text {
+                padding: 0 15px;
+                height: 460px;
+                letter-spacing: 1px;
+                width: 80%;
+                text-indent: 50px;
+                font-size: 22px;
+                color: #443210;
+                line-height: 36px;
+                margin: 0 auto;
+                text-align: left;
+                overflow-y: scroll; }
+                body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+                .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index .text ::-webkit-scrollbar, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index .text ::-webkit-scrollbar {
+                  display: none !important; }
+                body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+                .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index .text span:nth-child(1), body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index .text span:nth-child(1) {
+                  margin-left: -50px; }
+                body #main .content .left02_right .left02_right_index .showContentRight .eft02_right2 .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right3 .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_shahu .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_bilin .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .eft02_right_tangkeng .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .tianlin
+                .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .changhong .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .qianlang .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .longjing .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .xincheng .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .keding .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .yefeng .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .jiayicheng .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .xiandai .all-content .index .text .bold, body #main .content .left02_right .left02_right_index .showContentRight .five .all-content .index .text .bold {
+                  font-weight: bold; }
       body #main .content .left03_right {
         width: 1400px;
         height: 810px;
